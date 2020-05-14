@@ -3,7 +3,7 @@
 Supported grammars
 ------------------
     r = (s)
-    r = st
+    r = st or s.t
     r = s+t
     r = s*
     r = e (epsilon)
@@ -11,10 +11,10 @@ Supported grammars
 
 Examples
 
-    (a|b)*
-    (a*|b*)*
-    ((e|a)b*)*
-    (a|b)*abb(a|b)*
+    (a+b)*
+    (a*+b*)*
+    ((e+a)b*)* or ((e+a).b*)*
+    (a+b)*abb(a+b)* or (a+b)*.a.b.b.(a+b)*
 
 
 NFA string acceptance by Dynamic Memory
