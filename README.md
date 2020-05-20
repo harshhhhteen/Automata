@@ -1,4 +1,4 @@
-# automata
+# Automata
 
 Supported grammars
 ------------------
