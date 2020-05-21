@@ -1,6 +1,6 @@
 # Automata
 
-Supported grammars
+Supported Grammars
 ------------------
     r = (s)
     r = st or s.t
@@ -34,15 +34,19 @@ RE to DFA
 ---------
 C program which generates a deterministic finite automata graph from the input regular expression.
 
-Package required - xdot
-Installation -
+##### Package required - xdot  
+##### Installation -  
+````
 sudo apt-get install xdot
+````
 
 RE to NFA (bottom up)
 ---------------------
 C program which generates a non-deterministic finite automata graph from the input regular expression.
 Using bottom up approach.
 
-Package required - xdot
-Installation -
+##### Package required - xdot  
+#####Installation -  
+````
 sudo apt-get install xdot
+````
