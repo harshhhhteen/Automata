@@ -46,7 +46,7 @@ C program which generates a non-deterministic finite automata graph from the inp
 Using bottom up approach.
 
 ##### Package required - xdot  
-#####Installation -  
+##### Installation -  
 ````
 sudo apt-get install xdot
 ````
